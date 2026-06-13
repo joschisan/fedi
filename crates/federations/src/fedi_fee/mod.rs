@@ -151,15 +151,21 @@ impl FediFeeHelper {
                     .get(&federation_id_str)
                     .ok_or(FediFeeHelperError::UnknownFederation(federation_id_str))
                     .and_then(|fed_info| match stream {
-                        FediFeeStream::App => fed_info
+                        // The remote Fedi fee API (FeesV0) only carries the v1
+                        // mint/ln/wallet + stability_pool modules, so v2
+                        // modules (walletv2/mintv2/lnv2) are absent from the
+                        // fetched schedule on real devices. Fall back to 0 ppm
+                        // rather than UnknownModule so v2 ops aren't blocked;
+                        // the proper fix is to extend the server-side fee API.
+                        FediFeeStream::App => Ok(fed_info
                             .fedi_fee_schedule
                             .modules
                             .get(&module)
-                            .ok_or(FediFeeHelperError::UnknownModule(module))
                             .map(|module_schedule| match direction {
                                 RpcTransactionDirection::Receive => module_schedule.receive_ppm,
                                 RpcTransactionDirection::Send => module_schedule.send_ppm,
-                            }),
+                            })
+                            .unwrap_or(0)),
                         FediFeeStream::Guardian => Ok(fed_info
                             .guardian_fee_config
                             .as_ref()
