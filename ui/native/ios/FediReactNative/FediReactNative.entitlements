@@ -2,14 +2,5 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>aps-environment</key>
-	<string>production</string>
-    <key>com.apple.developer.associated-domains</key>
-    <array>
-        <string>applinks:app.fedi.xyz</string>
-        <string>applinks:www.app.fedi.xyz</string>
-        <string>applinks:fedi-ashen.vercel.app</string>
-        <string>applinks:www.fedi-ashen.vercel.app</string>
-    </array>
 </dict>
 </plist>

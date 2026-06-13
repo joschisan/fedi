@@ -1064,7 +1064,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 4JUZY29459;
+				DEVELOPMENT_TEAM = 8HT7PK67G4;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"VISION_CAMERA_DISABLE_FRAME_PROCESSORS=1",
@@ -1082,7 +1082,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.fedi.alpha;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.joschisan.fedi.alpha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FediReactNativeTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1099,7 +1099,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 4JUZY29459;
+				DEVELOPMENT_TEAM = 8HT7PK67G4;
 				INFOPLIST_FILE = FediReactNativeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1112,7 +1112,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.fedi.alpha;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.joschisan.fedi.alpha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FediReactNativeTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -1130,7 +1130,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 194;
-				DEVELOPMENT_TEAM = 4JUZY29459;
+				DEVELOPMENT_TEAM = 8HT7PK67G4;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FediReactNative/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Fedi Alpha";
@@ -1145,7 +1145,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.fedi.alpha;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.joschisan.fedi.alpha;
 				PRODUCT_NAME = FediReactNative;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "FediReactNative-Bridging-Header.h";
@@ -1167,7 +1167,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 194;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4JUZY29459;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8HT7PK67G4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/MLImage/Frameworks\"",
@@ -1192,10 +1192,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.fedi.alpha;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.joschisan.fedi.alpha;
 				PRODUCT_NAME = FediReactNative;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AppStore org.fedi.alpha";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AppStore io.github.joschisan.fedi.alpha";
 				SWIFT_OBJC_BRIDGING_HEADER = "FediReactNative-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1212,7 +1212,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 194;
-				DEVELOPMENT_TEAM = 4JUZY29459;
+				DEVELOPMENT_TEAM = 8HT7PK67G4;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "FediNightly-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Fedi Alpha";
@@ -1228,7 +1228,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.fedi.nightly;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.joschisan.fedi.nightly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "FediReactNative-Bridging-Header.h";
@@ -1245,12 +1245,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = FediReactNative/FediReactNative.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 194;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4JUZY29459;
+				DEVELOPMENT_TEAM = 8HT7PK67G4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/MLImage/Frameworks\"",
@@ -1276,10 +1274,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.fedi.nightly;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.joschisan.fedi.nightly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AppStore org.fedi.nightly";
 				SWIFT_OBJC_BRIDGING_HEADER = "FediReactNative-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1296,7 +1293,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 194;
-				DEVELOPMENT_TEAM = 4JUZY29459;
+				DEVELOPMENT_TEAM = 8HT7PK67G4;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "FediNova-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Fedi Nova";
@@ -1312,7 +1309,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.fedi.nova;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.joschisan.fedi.nova;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "FediReactNative-Bridging-Header.h";
@@ -1334,7 +1331,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 194;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4JUZY29459;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8HT7PK67G4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/MLImage/Frameworks\"",
@@ -1360,10 +1357,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.fedi.nova;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.joschisan.fedi.nova;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AppStore org.fedi.nova";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AppStore io.github.joschisan.fedi.nova";
 				SWIFT_OBJC_BRIDGING_HEADER = "FediReactNative-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
